@@ -5,17 +5,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/color_white"
-    tools:context=".MainActivity">
+    tools:context=".Manin2Activity">
 
-    <ImageView
-        android:layout_width="@dimen/dp_200"
-        android:layout_height="@dimen/dp_200"
-        android:layout_gravity="center"
-        android:src="@drawable/iconyoutube" />
-
-    <ProgressBar
-        android:id="@+id/progessbar"
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/dp_50"
-        android:layout_gravity="bottom" />
+        android:layout_height="wrap_content" />
 </FrameLayout>
+
